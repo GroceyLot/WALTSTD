@@ -1,0 +1,8 @@
+# Ignore everything in the build directory
+/build/
+
+# Ignore everything in the include directory
+/include/
+
+# Ignore the exports.json file
+exports.json
