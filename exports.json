@@ -1,1 +1,20 @@
-{"types":{"string":{"data":"char*","length":"size_t","capacity":"size_t"},"person":{"age":"int","name":"string"},"list":{"size":"size_t","data":"void*","capacity":"size_t","elem_size":"size_t"}},"funcs":{"function":"int","person_set_age":"void","autofreetest":"int","person_kill":"void","take_autofree":"void","main":"int","string_set":"string","string_append":"string","person_create":"person","person__new":"person","increment":"void","person__free":"void","string_init":"string","take_plain":"void"}}
+{
+    "types": {
+        "list": {
+            "size": "size_t",
+            "capacity": "size_t",
+            "elem_size": "size_t",
+            "data": "void*"
+        },
+        "string": {
+            "length": "size_t",
+            "capacity": "size_t",
+            "data": "char*"
+        }
+    },
+    "funcs": {
+	"string_init": "string",
+	"string_set": "string",
+	"string_append": "string"
+    }
+}
